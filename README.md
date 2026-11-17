@@ -22,6 +22,7 @@ My aim is to document what I did, explain the results and keep a record of what 
 | Lab | Difficulty | Focus |
 |---|---|---|
 | [Pickle Rick](tryhackme/pickle-rick/README.md) | Introductory | Network reconnaissance, web enumeration, command execution and privilege escalation |
+| [OhSINT](tryhackme/ohsint/README.md) | Introductory | OSINT, image metadata analysis, public profile investigation and information exposure |
 
 ### Hack The Box
 
@@ -51,6 +52,7 @@ The structure may vary depending on the type of lab.
 |---|---|
 | Network reconnaissance | Nmap |
 | Web enumeration | Gobuster, Firefox |
+| OSINT and metadata analysis | ExifTool, Google, GitHub, X, WordPress |
 | Linux enumeration | Standard Linux utilities |
 | Privilege escalation analysis | sudo |
 
