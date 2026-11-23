@@ -37,7 +37,7 @@ Both hashes matched, confirming that the working copy was identical to the downl
 
 **Evidence E01 — File Integrity**
 
-![SHA-256 hash comparison](evidence/E01-redline-evidence-integrity.webp)
+![SHA-256 hash comparison](evidence/E01-redline-evidence-integrity.png)
 
 ## Investigation
 
@@ -63,7 +63,7 @@ This provided initial context for the investigation. The exact Windows edition w
 
 **Evidence E02 — Windows System Information**
 
-![Windows information recovered using Volatility 3](evidence/E02-redline-windows-system-information.webp)
+![Windows information recovered using Volatility 3](evidence/E02-redline-windows-system-information.png)
 
 ### 2. Suspicious Process Analysis
 
@@ -110,7 +110,7 @@ However, these findings alone did not prove that code injection had occurred.
 
 **Evidence E03 — Suspicious Memory Region**
 
-![Suspicious memory region identified using Volatility 3](evidence/E03-redline-suspicious-memory-region.webp)
+![Suspicious memory region identified using Volatility 3](evidence/E03-redline-suspicious-memory-region.png)
 
 ### 4. Network Connection Analysis
 
@@ -140,7 +140,7 @@ Other recovered processes included `Outline.exe` and `tun2socks.exe`, which were
 
 **Evidence E04 — Network Connection Analysis**
 
-![Network artefacts recovered using Volatility 3](evidence/E04-redline-suspicious-network-connection.webp)
+![Network artefacts recovered using Volatility 3](evidence/E04-redline-suspicious-network-connection.png)
 
 ### 5. Threat Intelligence Investigation
 
@@ -156,7 +156,7 @@ However, threat intelligence classifications can change over time. The results o
 
 **Evidence E05 — VirusTotal Investigation**
 
-![Threat intelligence results for the investigated IP address](evidence/E05-redline-threat-intelligence-ip-analysis.webp)
+![Threat intelligence results for the investigated IP address](evidence/E05-redline-threat-intelligence-ip-analysis.png)
 
 ### 6. Suspicious URL Identification
 
@@ -180,7 +180,7 @@ However, I did not reconstruct a complete HTTP request or confirm the contents o
 
 **Evidence E06 — Suspicious URL**
 
-![Suspicious URL recovered from the memory image](evidence/E06-redline-suspicious-url-memory-analysis.webp)
+![Suspicious URL recovered from the memory image](evidence/E06-redline-suspicious-url-memory-analysis.png)
 
 ### 7. Executable Location
 
@@ -196,7 +196,7 @@ Running an executable from a temporary directory is not automatically malicious,
 
 **Evidence E07 — Suspicious Process Path**
 
-![Process information and executable path recovered using Volatility 3](evidence/E07-redline-suspicious-process-path.webp)
+![Process information and executable path recovered using Volatility 3](evidence/E07-redline-lab-completion.png)
 
 ## Key Findings
 
