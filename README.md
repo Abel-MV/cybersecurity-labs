@@ -30,7 +30,9 @@ Writeups will be added as they are reviewed and prepared for publication.
 
 ### CyberDefenders
 
-Writeups will be added as they are reviewed and prepared for publication.
+| Lab | Difficulty | Focus |
+|---|---|---|
+| [RedLine — Memory Forensics](cyberdefenders/redline/README.md) | Easy | Windows memory analysis, process investigation, suspicious network activity and threat intelligence |
 
 ## Lab Documentation
 
@@ -55,6 +57,9 @@ The structure may vary depending on the type of lab.
 | OSINT and metadata analysis | ExifTool, Google, GitHub, X, WordPress |
 | Linux enumeration | Standard Linux utilities |
 | Privilege escalation analysis | sudo |
+| Memory forensics | Volatility 3, Strings |
+| Evidence integrity | SHA-256 |
+| Threat intelligence | VirusTotal |
 
 This section will be expanded as additional labs are published.
 
