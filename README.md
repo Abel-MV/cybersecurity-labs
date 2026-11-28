@@ -33,6 +33,7 @@ Writeups will be added as they are reviewed and prepared for publication.
 | Lab | Difficulty | Focus |
 |---|---|---|
 | [RedLine — Memory Forensics](cyberdefenders/redline/README.md) | Easy | Windows memory analysis, process investigation, suspicious network activity and threat intelligence |
+| [HireMe — Windows Forensic Investigation](cyberdefenders/hireme/README.md) | Medium | Windows Registry analysis, forensic image integrity, LNK metadata, browser artefacts and email investigation |
 
 ## Lab Documentation
 
@@ -58,7 +59,13 @@ The structure may vary depending on the type of lab.
 | Linux enumeration | Standard Linux utilities |
 | Privilege escalation analysis | sudo |
 | Memory forensics | Volatility 3, Strings |
-| Evidence integrity | SHA-256 |
+| Forensic image examination | FTK Imager |
+| Windows Registry analysis | Registry Explorer |
+| Windows shortcut analysis | LECmd |
+| Browser forensics | Python, SQLite |
+| Email forensics | GoldFynch PST/OST Viewer |
+| Document examination | WinRAR |
+| Evidence integrity | SHA-256, MD5, SHA-1 |
 | Threat intelligence | VirusTotal |
 
 This section will be expanded as additional labs are published.
